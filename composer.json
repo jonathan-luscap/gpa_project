@@ -1,0 +1,17 @@
+{
+    "name": "aphunk0/gpa-project",
+    "autoload": {
+        "psr-4": {
+            "Aphunk0\\GpaProject\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "jon",
+            "email": "jonathan.luscap@le-campus-numerique.fr"
+        }
+    ],
+    "require": {
+
+    }
+}
