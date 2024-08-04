@@ -15,3 +15,4 @@
     </head>
 
     <body class="container mt-5 pt-2">
+        <?php require_once '../resources/views/layouts/navbar.tpl.php';?>
