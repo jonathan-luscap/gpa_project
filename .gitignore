@@ -3,3 +3,4 @@
 .phpunit.result.cache
 !var/cache/.gitkeep
 var/cache/*
+.github
