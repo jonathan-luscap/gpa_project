@@ -5,9 +5,9 @@ L'idée est de construire un mini site web présentant les données provenant de
 https://fakestoreapi.com/docs
 
 Il devra comprendre :
-- [ ] Une page d'accueil avec un un slider
-- [ ] et les produits d'une catégorie
-- [ ] et la liste des catégories.
+- [x] Une page d'accueil avec un un slider
+- [x] et les produits d'une catégorie
+- [x] et la liste des catégories.
 
 - [ ] Une page de listing des produits par categorie
 - [ ] Une page produit
