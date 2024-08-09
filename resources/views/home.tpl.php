@@ -37,6 +37,20 @@ require_once '../resources/views/layouts/header.tpl.php';?>
                     <span class="visually-hidden">Next</span>
                 </button>
             </div>
+        </div>        
+    </div>
+    <div class="container">
+        <h2 class="py-5 px-5 bg-success bg-opacity-50 text-white rounded" id="categories">Catégories</h2>
+        <div class="row">
+            <?php foreach ($categories as $key => $category):?>
+                <div class="col-12">
+                    <a href="?action=Categorie&name=<?=$category?>" class="text-decoration-none text-reset responsive-font">
+                        <div class="category m-2 py-5 px-5 text-uppercase text-nowrap bg-info bg-opacity-25 rounded">
+                            <?php echo $category?>
+                        </div>
+                    </a>
+                </div>
+            <?php endforeach;?>
         </div>
     </div>
     <script src="js/carousel.js"></script>
