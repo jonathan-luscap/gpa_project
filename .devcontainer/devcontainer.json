@@ -1,0 +1,13 @@
+{
+    "name": "devcont_php8.0",
+    "build": {
+        "dockerfile": "Dockerfile",
+        "context": ".."
+    },
+    "mounts": [
+        "source=${localEnv:HOME}/.gitconfig,target=/home/vscode/.gitconfig,type=bind",
+        "source=${localEnv:HOME}/.ssh,target=/home/vscode/.ssh,type=bind"
+    ],
+    "remoteUser": "vscode"
+}
+ 
