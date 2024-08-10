@@ -1,9 +1,10 @@
 <?php
 
-$title = 'Fake Store : ' . $categoryName;
+$pageTitle = $categoryName;
 require_once '../resources/views/layouts/header.tpl.php';?>
 
 <div class="container pt-3">
+    <h1><?=$categoryName?></h1>
     <div class="row">
         <?php foreach ($products as $product):?>
             <div class="card col-12 col-md-6 col-lg-3">
