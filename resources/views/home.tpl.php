@@ -1,11 +1,11 @@
 <?php
-$title = 'Fake Store : Accueil';
+$pageTitle = 'Accueil';
 require_once '../resources/views/layouts/header.tpl.php';?>
 
 <div class="container">
-
+    <h1>Bienvenu chez FakeStore</h1>
     <div class="container">
-        <h1 class="text-center bg-warning-subtle p-5">A voir cette semaine !</h1>
+        <h2 class="text-center bg-warning-subtle p-5">A voir cette semaine !</h2>
         <div id="top_product" class="carousel slide m-3" data-bs-ride="carousel">
             <div class="carousel-indicators">
                 <?php foreach ($articles as $key => $article): ?>
@@ -37,6 +37,20 @@ require_once '../resources/views/layouts/header.tpl.php';?>
                     <span class="visually-hidden">Next</span>
                 </button>
             </div>
+        </div>        
+    </div>
+    <div class="container">
+        <h2 class="py-5 px-5 bg-success bg-opacity-50 text-white rounded" id="categories">Catégories</h2>
+        <div class="row">
+            <?php foreach ($categories as $key => $category):?>
+                <div class="col-12">
+                    <a href="?action=Categorie&name=<?=$category?>" class="text-decoration-none text-reset responsive-font">
+                        <div class="category m-2 py-5 px-5 text-uppercase text-nowrap bg-info bg-opacity-25 rounded">
+                            <?php echo $category?>
+                        </div>
+                    </a>
+                </div>
+            <?php endforeach;?>
         </div>
     </div>
     <script src="js/carousel.js"></script>
