@@ -9,7 +9,7 @@ Il devra comprendre :
 - [x] et les produits d'une catégorie
 - [x] et la liste des catégories.
 
-- [ ] Une page de listing des produits par categorie
+- [x] Une page de listing des produits par categorie
 - [ ] Une page produit
 
 ## Contraintes
@@ -21,3 +21,5 @@ Il devra comprendre :
 - [ ] Des commits doivent être réalisés pour chaque fonctionnalité
 - [ ] Le projet doit être mené selon le concept mobilfirst
 - [ ] La réalisation du projet ne doit pas excèder 20 heures
+
+L'utilisation du devcontainer est prevue pour un developpement sur VS Code. Executer `composer update` une fois le container prêt à l'emploi. Eventuellement, adapter les volumes selon la distributions.
