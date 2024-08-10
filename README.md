@@ -22,4 +22,7 @@ Il devra comprendre :
 - [x] Le projet doit être mené selon le concept mobilfirst
 - [x] La réalisation du projet ne doit pas excèder 20 heures
 
-L'utilisation du devcontainer est prevue pour un developpement sur VS Code. Executer `composer update` une fois le container prêt à l'emploi. Eventuellement, adapter les volumes selon la distributions.
+## Explications complémentaires
+L'utilisation du devcontainer est prevue pour un developpement sur VS Code. Eventuellement, adapter les volumes selon la distribution et les dispositions individuelles. Executer `composer update` une fois le container prêt à l'emploi. 
+
+Le terme "slider" a été interprété comme "carrousel".
