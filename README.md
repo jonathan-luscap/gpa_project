@@ -15,11 +15,14 @@ Il devra comprendre :
 ## Contraintes
 - [x] Le projet devra être en PHP8
 - [x] Utilisation de bootstrap pour affichage simple et rapide
-- [ ] \+ thèmes
+- [x] \+ thèmes
 - [x] "fakestoreapi" ne doit pas être exposée : c'est la couche PHP qui doit faire les appels à l'API
-- [ ] Les sources doivent être mises sur un GitHub public
-- [ ] Des commits doivent être réalisés pour chaque fonctionnalité
+- [x] Les sources doivent être mises sur un GitHub public
+- [x] Des commits doivent être réalisés pour chaque fonctionnalité
 - [x] Le projet doit être mené selon le concept mobilfirst
 - [x] La réalisation du projet ne doit pas excèder 20 heures
 
-L'utilisation du devcontainer est prevue pour un developpement sur VS Code. Executer `composer update` une fois le container prêt à l'emploi. Eventuellement, adapter les volumes selon la distributions.
+## Explications complémentaires
+L'utilisation du devcontainer est prevue pour un developpement sur VS Code. Eventuellement, adapter les volumes selon la distribution et les dispositions individuelles. Executer `composer update` une fois le container prêt à l'emploi. 
+
+Le terme "slider" a été interprété comme "carrousel".
