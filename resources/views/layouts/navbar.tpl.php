@@ -15,6 +15,16 @@
                 <li class="nav-item">
                     <a class="nav-link" href="#contact">Contactez nous</a>
                 </li>
+                <li class="nav-item" style="width: 4rem;">
+                    <div class="row justify-content-center mt-2" id="checkbox-div">
+                        <input type="checkbox" class="checkbox" id="checkbox">
+                        <label for="checkbox" class="checkbox-label">
+                            <i class="fas fa-moon"></i>
+                            <i class="fas fa-sun"></i>
+                            <span class="ball"></span>
+                        </label>
+                    </div>
+                </li>
             </ul>
         </div>
     </div>
