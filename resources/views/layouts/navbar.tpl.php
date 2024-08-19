@@ -13,7 +13,7 @@
                     <a class="nav-link" href="/#categories">Catégories</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#contact">Contactez nous</a>
+                    <a class="nav-link" href="/?action=Contact">Contactez nous</a>
                 </li>
                 <li class="nav-item" style="width: 4rem;">
                     <div class="row justify-content-center mt-2" id="checkbox-div">
