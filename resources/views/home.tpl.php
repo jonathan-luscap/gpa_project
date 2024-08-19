@@ -23,7 +23,7 @@ require_once '../resources/views/layouts/header.tpl.php';?>
                 <?php foreach ($articles as $article): ?>
                 <a href="?action=Produit&id=<?=$article->id?>">
                     <div class="carousel-item w-40 bg-body-tertiary p-x-auto" id="image_<?=$article->id - 1?>">
-                        <img src="<?=$article->image?>" alt="Carrousel slide <?=$article->id - 1?>" class="d-block" style="margin:auto; width:auto; height:50vw">
+                        <img src="<?=$article->image?>" alt="Carrousel slide <?=$article->id - 1?>" class="d-block" style="margin:auto; width:auto; height:60vh">
                     </div>
                 </a>
                 <?php endforeach; ?>
